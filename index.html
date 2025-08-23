@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Music</title>
+	<link href="src/css/bootstrap.min.css" rel="stylesheet">
+	<link href="src/css/global.css" rel="stylesheet">
+	<link href="src/css/index.css" rel="stylesheet">
+	<link href="src/css/player-skin.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<section id="header">
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container-xl p-sm-2 p-lg-0">
+				<a class="d-flex logo  space_2" href="index.html">
+					<b class="fs-2 family_1 text-white">
+						Ogoni<span class="col_orange">Beats</span> </b>
+				</a>
+				<button class="navbar-toggler offcanvas-nav-btn  ms-auto me-3" type="button">
+					<img src="src/image/icons-svg/list.svg" width="40" height="40"
+						alt="Open TemplateOnweb website menu" />
+				</button>
+				<div class="offcanvas offcanvas-start offcanvas-nav" style="width: 25rem">
+					<div class="offcanvas-header shadow  p-sm-2 p-lg-0">
+						<a class="d-flex logo  space_2" href="index.html">
+							<b class="fs-2 family_1 text-white"><i
+									class="bi-file-music me-1 col_orange align-middle"></i> Ogoni<span
+									class="col_orange">Beats</span> </b>
+						</a>
+						<img src="src/image/icons-svg/x.svg" width="40" height="40" class="ms-auto"
+							data-bs-dismiss="offcanvas" aria-label="Close" alt="Close TemplateOnweb website menu" />
+
+					</div>
+					<div class="offcanvas-body p-sm-4 p-lg-0 align-items-center">
+						<ul class="navbar-nav align-items-lg-center ms-auto">
+							<li class="nav-item">
+								<a class="nav-link dropdown-toggle active" href="index.html" title="Visit home page">
+									Home
+								</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link dropdown-toggle" href="about.html" title="Visit home page">
+									About Us
+								</a>
+							</li>
+							<li class="nav-item dropdown dropdown-fullwidth">
+								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+									aria-expanded="false" title="Click to see Wordpress website templates">
+									Releases<img src="src/image/icons-svg/chevron-down.svg" width="15" height="15"> </a>
+								<div class="dropdown-menu p-4 shadow">
+									<div class="row row-cols-xl-5 row-cols-lg-5 row-cols-1 gx-lg-4">
+
+										<div class="col">
+											<a class="dropdown-item d-block px-0 pt-0" href="release.html">
+												<div class="rounded d-none d-lg-block">
+													<img src="src/image/25.jpg" class="img-fluid" alt="abs">
+													<h5 class="font_14"><a href="release.html">Sustainable Fashion
+															Revolution: The Impact of Gen AI</a></h5>
+													<span class="d-block font_12 text-muted">JAN 6, 2020</span>
+												</div>
+											</a>
+										</div>
+										<div class="col">
+											<a class="dropdown-item d-block px-0 pt-0" href="release.html">
+												<div class="rounded d-none d-lg-block">
+													<img src="src/image/26.jpg" class="img-fluid" alt="abs">
+													<h5 class="font_14"><a href="release.html">14 Best Travel Size
+															Perfumes to Ensure You Smell Heavenly on the Go</a></h5>
+													<span class="d-block font_12 text-muted">JAN 6, 2020</span>
+												</div>
+											</a>
+										</div>
+										<div class="col">
+											<a class="dropdown-item d-block px-0 pt-0" href="release.html">
+												<div class="rounded d-none d-lg-block">
+													<img src="src/image/27.jpg" class="img-fluid" alt="abs">
+													<h5 class="font_14"><a href="release.html">How To Start A Clothing
+															Business: Everything You Need To Know</a></h5>
+													<span class="d-block font_12 text-muted">JAN 6, 2020</span>
+												</div>
+											</a>
+										</div>
+										<div class="col">
+											<a class="dropdown-item d-block px-0 pt-0" href="release.html">
+												<div class="rounded d-none d-lg-block">
+													<img src="src/image/28.jpg" class="img-fluid" alt="abs">
+													<h5 class="font_14"><a href="release.html">7 New York Fashion Week
+															Top Makeup Trends We Spotted</a></h5>
+													<span class="d-block font_12 text-muted">JAN 6, 2020</span>
+												</div>
+											</a>
+										</div>
+										<div class="col">
+											<a class="dropdown-item d-block px-0 pt-0" href="release.html">
+												<div class="rounded d-none d-lg-block">
+													<img src="src/image/29.jpg" class="img-fluid" alt="abs">
+													<h5 class="font_14"><a href="release.html">The Curly Bob Is the
+															Coolest Haircut for Seamless Volume and Bouncy Texture</a>
+													</h5>
+													<span class="d-block font_12 text-muted">JAN 6, 2020</span>
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>
+							</li>
+
+							<li class="nav-item dropdown drop_border">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Artists<img src="src/image/icons-svg/chevron-down.svg" width="15" height="15"
+										alt="Submenu open/close icon">
+								</a>
+								<ul class="dropdown-menu drop_1 shadow" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="team.html"> Artists</a></li>
+									<li><a class="dropdown-item border-0" href="team_detail.html"> Artist Details</a>
+									</li>
+								</ul>
+							</li>
+
+							<li class="nav-item dropdown drop_border">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Events <img src="src/image/icons-svg/chevron-down.svg" width="15" height="15"
+										alt="Submenu open/close icon">
+								</a>
+								<ul class="dropdown-menu drop_1 shadow" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="event.html"> Events</a></li>
+									<li><a class="dropdown-item border-0" href="event_detail.html"> Event Details</a>
+									</li>
+								</ul>
+							</li>
+
+							<li class="nav-item dropdown drop_border">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Blogs <img src="src/image/icons-svg/chevron-down.svg" width="15" height="15"
+										alt="Submenu open/close icon">
+								</a>
+								<ul class="dropdown-menu drop_1 shadow" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="blog.html"> Blogs</a></li>
+									<li><a class="dropdown-item border-0" href="blog_detail.html"> Blog Details</a></li>
+								</ul>
+							</li>
+
+
+							<li class="nav-item dropdown drop_border">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Pages <img src="src/image/icons-svg/chevron-down.svg" width="15" height="15"
+										alt="Submenu open/close icon">
+								</a>
+								<ul class="dropdown-menu drop_1 shadow" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="gallery.html"> Gallery</a></li>
+									<li><a class="dropdown-item border-0" href="contact.html"> Contact Us</a></li>
+								</ul>
+							</li>
+
+						</ul>
+
+					</div>
+				</div>
+			</div>
+			</div>
+		</nav>
+	</section>
+
+	<section id="center" class="center_home">
+		<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="src/image/1.jpg" class="d-block img-fluid" alt="...">
+					<div class="carousel-caption d-md-block text-end">
+						<div class="player_container d-flex justify-content-end">
+							<div class="jp-jplayer jplayer" data-ancestor=".jp_container_1"
+								data-url="https://jplayer.org/audio/m4a/Miaow-07-Bubble.m4a"></div>
+							<div class="jp-audio jp_container_1" role="application" aria-label="media player">
+								<div class="jp-gui jp-interface">
+									<!-- Player Controls -->
+									<div class="player_controls_box">
+										<button class="jp-play player_button" tabindex="0"></button>
+									</div>
+									<!-- Progress Bar -->
+									<div class="player_bars">
+										<div class="jp-progress">
+											<div class="jp-seek-bar">
+												<div>
+													<div class="jp-play-bar">
+														<div class="jp-current-time" role="timer" aria-label="time">0:00
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="jp-duration ml-auto" role="timer" aria-label="duration">00:00</div>
+									</div>
+									<!-- Volume Controls -->
+									<div class="jp-volume-controls">
+										<button class="jp-mute" tabindex="0"><i
+												class="bi bi-volume-down-fill"></i></button>
+										<div class="jp-volume-bar">
+											<div class="jp-volume-bar-value" style="width: 0%;"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<h1 class="d-inline-block bg-black  p-2 mt-4 text-white font_60">Music by Dj Augue</h1> <br>
+						<h2 class="d-inline-block bg-white  mt-3 mb-4 p-3 text-black fs-1">New Awesome Popular <span
+								class="col_orange">Album</span></h2><br>
+						<!--p class="w-50 text-white">Grursus mal suada faci lisis Lorem ipsum dolarorit more ametion consectetur elit. Vesti at bulum nec at odio aea the dumm ipsumm ipsum that dolocons rsus</p-->
+						<h6 class="mt-4 mb-0"><a class="button" href="#">Know More</a></h6>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="src/image/2.jpg" class="d-block img-fluid" alt="...">
+					<div class="carousel-caption d-md-block">
+						<div class="player_container flex-grow-1">
+							<div class="jp-jplayer jplayer" data-ancestor=".jp_container_2"
+								data-url="https://jplayer.org/audio/m4a/Miaow-07-Bubble.m4a"></div>
+							<div class="jp-audio jp_container_2" role="application" aria-label="media player">
+								<div class="jp-gui jp-interface">
+									<!-- Player Controls -->
+									<div class="player_controls_box">
+										<button class="jp-play player_button" tabindex="0"></button>
+									</div>
+									<!-- Progress Bar -->
+									<div class="player_bars">
+										<div class="jp-progress">
+											<div class="jp-seek-bar">
+												<div>
+													<div class="jp-play-bar">
+														<div class="jp-current-time" role="timer" aria-label="time">0:00
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="jp-duration ml-auto" role="timer" aria-label="duration">00:00</div>
+									</div>
+									<!-- Volume Controls -->
+									<div class="jp-volume-controls">
+										<button class="jp-mute" tabindex="0"><i
+												class="bi bi-volume-down-fill"></i></button>
+										<div class="jp-volume-bar">
+											<div class="jp-volume-bar-value" style="width: 0%;"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<h1 class="d-inline-block bg-black  p-2 text-white font_60 mt-4">Music by Dj Semper</h1><br>
+						<h2 class="d-inline-block bg-white  mt-3 mb-4 p-3 text-black fs-1">New Awesome Popular <span
+								class="col_orange">Album</span></h2><br>
+						<p class="w-50 text-white">Grursus mal suada faci lisis Lorem ipsum dolarorit more ametion
+							consectetur elit. Vesti at bulum nec at odio aea the dumm ipsumm ipsum that dolocons rsus
+						</p>
+						<h6 class="mt-4 mb-0"><a class="button" href="#">Know More</a></h6>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="src/image/3.jpg" class="d-block img-fluid" alt="...">
+					<div class="carousel-caption d-md-block">
+						<div class="player_container flex-grow-1">
+							<div class="jp-jplayer jplayer" data-ancestor=".jp_container_3"
+								data-url="https://jplayer.org/audio/m4a/Miaow-07-Bubble.m4a"></div>
+							<div class="jp-audio jp_container_3" role="application" aria-label="media player">
+								<div class="jp-gui jp-interface">
+									<!-- Player Controls -->
+									<div class="player_controls_box">
+										<button class="jp-play player_button" tabindex="0"></button>
+									</div>
+									<!-- Progress Bar -->
+									<div class="player_bars">
+										<div class="jp-progress">
+											<div class="jp-seek-bar">
+												<div>
+													<div class="jp-play-bar">
+														<div class="jp-current-time" role="timer" aria-label="time">0:00
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="jp-duration ml-auto" role="timer" aria-label="duration">00:00</div>
+									</div>
+									<!-- Volume Controls -->
+									<div class="jp-volume-controls">
+										<button class="jp-mute" tabindex="0"><i
+												class="bi bi-volume-down-fill"></i></button>
+										<div class="jp-volume-bar">
+											<div class="jp-volume-bar-value" style="width: 0%;"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<h1 class="d-inline-block bg-black  p-2 text-white font_60 mt-4">Music by Dj Ipsum</h1><br>
+						<h2 class="d-inline-block bg-white  mt-3 mb-4 p-3 text-black fs-1">New Awesome Popular <span
+								class="col_orange">Album</span></h2><br>
+						<p class="w-50 text-white">Grursus mal suada faci lisis Lorem ipsum dolarorit more ametion
+							consectetur elit. Vesti at bulum nec at odio aea the dumm ipsumm ipsum that dolocons rsus
+						</p>
+						<h6 class="mt-4 mb-0"><a class="button" href="#">Know More</a></h6>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+	<section id="trend" class="pt-2 pb-2 bg_black_light py-5">
+		<div class="container-xl my-5">
+			<div class="trend_1 row row-cols-1 row-cols-lg-4 row-cols-md-2 row-cols-sm-2">
+				<div class="col">
+					<div class="trend_1_left">
+						<span><i class="bi-music-note-beamed me-1 col_gray font_60 align-middle"></i></span>
+						<h4 class="text-white mt-4">Recent <span class="col_orange">releases.</span></h4>
+						<p class="mt-4 mb-4">Mauris lorem metus, tincidunt quis commodo consectetur.</p>
+						<h6 class="mb-0"><a class="col_orange" href="#">- VIEW ALL</a>
+							<h6>
+					</div>
+				</div>
+				<div class="col">
+					<div class="trend_1_lefto">
+						<div class="trend_1_left1 position-relative">
+							<div class="trend_1_left1_inner">
+								<a href="#"><img src="src/mage/4.jpg" class="img-fluid" alt="abc"></a>
+							</div>
+							<div class="trend_1_left1_inner1 bg-light pt-5 px-4 position-absolute w-100 h-100 top-0">
+								<h5 class="fs-6"><a class="col_orange" href="#">Kode88</a></h5>
+								<p class="mb-0 font_13 text-dark">Nulla quis sem at nibh elementum imperdiet. Duis
+									sagittis ipsum.Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris
+									massa. Vestibulum lacinia arcu eget nulla. </p>
+							</div>
+						</div>
+						<div class="trend_1_left2 bg_black p-3">
+							<h5 class="fs-6"><a class="col_orange link1" href="#">Kode88</a></h5>
+							<h6 class="col_gray mb-0 font_13">Dubstep - Semper</h6>
+						</div>
+					</div>
+				</div>
+
+				<div class="col">
+					<div class="trend_1_lefto">
+						<div class="trend_1_left1 position-relative">
+							<div class="trend_1_left1_inner">
+								<a href="#"><img src="image/5.jpg" class="img-fluid" alt="abc"></a>
+							</div>
+							<div class="trend_1_left1_inner1 bg-light pt-5 px-4 position-absolute w-100 h-100 top-0">
+								<h5 class="fs-6"><a class="col_orange" href="#">Lazarus</a></h5>
+								<p class="mb-0 font_13 text-dark">Nulla quis sem at nibh elementum imperdiet. Duis
+									sagittis ipsum.Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris
+									massa. Vestibulum lacinia arcu eget nulla. </p>
+							</div>
+						</div>
+						<div class="trend_1_left2 bg_black p-3">
+							<h5 class="fs-6"><a class="col_orange link1" href="#">Lazarus</a></h5>
+							<h6 class="col_gray mb-0 font_13">Album - Augue</h6>
+						</div>
+					</div>
+				</div>
+
+				<div class="col">
+					<div class="trend_1_lefto">
+						<div class="trend_1_left1 position-relative">
+							<div class="trend_1_left1_inner">
+								<a href="#"><img src="image/6.jpg" class="img-fluid" alt="abc"></a>
+							</div>
+							<div class="trend_1_left1_inner1 bg-light pt-5 px-4 position-absolute w-100 h-100 top-0">
+								<h5 class="fs-6"><a class="col_orange" href="#">Frontier</a></h5>
+								<p class="mb-0 font_13 text-dark">Nulla quis sem at nibh elementum imperdiet. Duis
+									sagittis ipsum.Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris
+									massa. Vestibulum lacinia arcu eget nulla. </p>
+							</div>
+						</div>
+						<div class="trend_1_left2 bg_black p-3">
+							<h5 class="fs-6"><a class="col_orange link1" href="#">Frontier</a></h5>
+							<h6 class="col_gray mb-0 font_13">New - Ipsum</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="latest row mt-5">
+				<div class="col-md-8">
+					<div class="latest_left pe-3 border-top pt-5">
+						<img src="image/7.jpg" class="img-fluid" alt="abc">
+						<p class="mt-4">In elementum pellentesque dolor ac gravida. Pellentesque elit leo, accumsan sed
+							consectetur a, semper ac sem. Morbi sodales bibendum risus nec laoreet. Mauris est nisi,
+							consequat vitae porta et, hendrerit sed metus.</p>
+						<p class="mt-4">Aliquam eu magna vel metus ultrices ornare in et nisi. Quisque porta sodales
+							orci, eu auctor leo tincidunt nec. Suspendisse posuere blandit tortor sit amet varius.
+							Integer condimentum rutrum mi quis lobortis. Etiam consectetur posuere pretium.</p>
+						<p class="mt-4">Vesti at bulum nec at odio aea the dumm ipsumm ipsum that dolocons rsus mal
+							suada and fadolorit to the consectetur elit. All the Lorem Ipsum generators on the Internet
+							tend.</p>
+						<h6 class="mb-0 mt-4"><a class="col_orange" href="#">- MORE ABOUT US</a>
+							<h6>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="latest_right  border-top pt-5">
+						<div class="latest_right1">
+							<h4 class="text-white mb-4">Latest <span class="col_orange">news.</span></h4>
+							<ul class="mb-0">
+								<li class="d-flex">
+									<span class="col_orange d-inline-block font_14 me-3">18/08/2023</span>
+									<span><a class="text-white link" href="#">A New Extended “Ghost” Clip Has Been
+											Released Online</a></span>
+								</li>
+								<li class="d-flex mt-4">
+									<span class="col_orange d-inline-block font_14 me-3">19/08/2023</span>
+									<span><a class="text-white link" href="#">Entire History And Evolution of Electronic
+											Music</a></span>
+								</li>
+								<li class="d-flex mt-4">
+									<span class="col_orange d-inline-block font_14 me-3">22/08/2023</span>
+									<span><a class="text-white link" href="#">New Wireless Home Speakers With Great
+											Possibilities</a></span>
+								</li>
+								<li class="d-flex mt-4">
+									<span class="col_orange d-inline-block font_14 me-3">24/08/2023</span>
+									<span><a class="text-white link" href="#">Local Spotlight: Carl Dee</a></span>
+								</li>
+							</ul>
+						</div>
+
+						<div class="latest_right1 mt-5">
+							<h4 class="text-white mb-4">Twitter <span class="col_orange">feed</span></h4>
+							<ul class="mb-0">
+								<li class="d-flex">
+									<span class="me-4 fs-5"><i class="bi-twitter col_orange"></i></span>
+									<span>
+										<b class="d-block"><a class="text-white" href="#">BY LOREM AMET</a></b>
+										<span class="d-block mt-2 col_gray">Instralation Accecories of tyree stand of
+											readroom starline of shits ofline and the by http/www.abc
+											feeds/story.</span>
+									</span>
+								</li>
+								<li class="d-flex mt-3 pt-3 border-top">
+									<span class="me-4 fs-5"><i class="bi-twitter col_orange"></i></span>
+									<span>
+										<b class="d-block"><a class="text-white" href="#">BY DOLOR PORTA</a></b>
+										<span class="d-block mt-2 col_gray">Aliquam sodales justo sit amet leo anet
+											tempus enim and
+											esent egetis hendrerit vel nibh vitae ornar sem velit aliquam facilisivitae
+											finibus risus</span>
+									</span>
+								</li>
+								<li class="d-flex mt-3 pt-3 border-top">
+									<span class="me-4 fs-5"><i class="bi-twitter col_orange"></i></span>
+									<span>
+										<b class="d-block"><a class="text-white" href="#">BY IPSUM QUIS</a></b>
+										<span class="d-block mt-2 col_gray"> Labore et dolore magna aliqua enim ad minim
+											veniam quis nostre</span>
+									</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="pod row row-cols-1 row-cols-lg-3 row-cols-md-2  mt-5">
+				<div class="col">
+					<div class="pod_left border-top pt-5">
+						<span><i class="bi-broadcast-pin me-1 col_gray font_60 align-middle"></i></span>
+						<h3 class="text-white mb-0 mt-4">Checkout new <span class="col_orange">podcasts.</span></h3>
+					</div>
+				</div>
+				<div class="col">
+					<div class="pod_left border-top pt-5">
+						<div class="trend_1_lefto">
+							<div class="trend_1_left1 position-relative">
+								<div class="trend_1_left1_inner">
+									<a href="#"><img src="image/30.jpg" class="img-fluid" alt="abc"></a>
+								</div>
+								<div
+									class="trend_1_left1_inner1 bg-light pt-5 px-4 position-absolute w-100 h-100 top-0">
+									<h5 class="fs-6"><a class="col_orange" href="#">Unisef 1</a></h5>
+									<p class="mb-0 font_13 text-dark">Nulla quis sem at nibh elementum imperdiet. Duis
+										sagittis ipsum.Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris
+										massa. Vestibulum lacinia arcu eget nulla. </p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col">
+					<div class="pod_left border-top pt-5">
+						<div class="trend_1_lefto">
+							<div class="trend_1_left1 position-relative">
+								<div class="trend_1_left1_inner">
+									<a href="#"><img src="image/9.jpg" class="img-fluid" alt="abc"></a>
+								</div>
+								<div
+									class="trend_1_left1_inner1 bg-light pt-5 px-4 position-absolute w-100 h-100 top-0">
+									<h5 class="fs-6"><a class="col_orange" href="#">Unisef 2</a></h5>
+									<p class="mb-0 font_13 text-dark">Nulla quis sem at nibh elementum imperdiet. Duis
+										sagittis ipsum.Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris
+										massa. Vestibulum lacinia arcu eget nulla. </p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="event" class="pt-5 pb-5 bg_black">
+		<div class="container-xl my-5">
+			<div class="event_1 row">
+				<div class="col-md-4">
+					<div class="event_1_left">
+						<h3 class="text-white mb-0"><span class="col_orange">Upcoming</span> Events</h3>
+						<p class="mt-4">In elementum pellentesque dolor ac gravida. Pellentesque elit leo, accumsan sed
+							consectetur a, semper ac sem. Morbi sodales bibendum risus nec laoreet. Mauris est nisi,
+							consequat vitae porta et, hendrerit sed metus.</p>
+						<p class="mt-4">Aliquam eu magna vel metus ultrices ornare in et nisi. Quisque porta sodales
+							orci, eu auctor leo tincidunt nec. Suspendisse posuere blandit tortor sit amet varius.
+							Integer condimentum rutrum mi quis lobortis. Etiam consectetur posuere pretium.</p>
+						<h6 class="mb-0 mt-4"><a class="col_orange" href="#">- MORE ABOUT US</a></h6>
+						<h6>
+					</div>
+				</div>
+
+				<div class="col-md-8">
+					<div class="event_1_right">
+						<ul class="nav nav-tabs border-0">
+							<li class="nav-item d-inline-block">
+								<a href="#profile1" data-bs-toggle="tab" aria-expanded="true" class="nav-link active">
+									<span class="d-md-block"> Clasical</span>
+								</a>
+							</li>
+
+							<li class="nav-item d-inline-block ms-3">
+								<a href="#profile2" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+									<span class="d-md-block"> Pop</span>
+								</a>
+							</li>
+							<li class="nav-item d-inline-block ms-3">
+								<a href="#profile3" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+									<span class="d-md-block"> Jazz</span>
+								</a>
+							</li>
+
+							<li class="nav-item d-inline-block ms-3">
+								<a href="#profile4" data-bs-toggle="tab" aria-expanded="true" class="nav-link">
+									<span class="d-md-block"> International</span>
+								</a>
+							</li>
+
+						</ul>
+
+						<div class="tab-content mt-4">
+
+							<div class="tab-pane active" id="profile1">
+								<div class="profile1_inner">
+									<ul class="mb-0 bg-black p-3">
+										<li class="d-flex flex-wrap">
+											<b class="col_gray fs-2 me-4 pt-3">03/09</b>
+											<span class="me-4">
+												<a href="#"><img src="image/10.jpg" alt="abc"></a>
+											</span>
+											<span class="pt-3">
+												<b class="d-block"><a class="col_gray link1" href="#">SANCTUARY OUTDOOR
+														FESTIVAL</a></b>
+												<span class="col_gray font_13 d-block">London, UK</span>
+											</span>
+										</li>
+										<li class="d-flex border-top pt-3 mt-3 flex-wrap">
+											<b class="col_gray fs-2 me-4 pt-3">05/09</b>
+											<span class="me-4">
+												<a href="#"><img src="image/11.jpg" alt="abc"></a>
+											</span>
+											<span class="pt-3">
+												<b class="d-block"><a class="col_gray link1" href="#">POWER BASS
+														FESTIVAL</a></b>
+												<span class="col_gray font_13 d-block">Sydney, Aus</span>
+											</span>
+										</li>
+
+										<li class="d-flex border-top pt-3 mt-3 flex-wrap">
+											<b class="col_gray fs-2 me-4 pt-3">07/09</b>
+											<span class="me-4">
+												<a href="#"><img src="image/12.jpg" alt="abc"></a>
+											</span>
+											<span class="pt-3">
+												<b class="d-block"><a class="col_gray link1" href="#">Indian
+														Festival</a></b>
+												<span class="col_gray font_13 d-block">Delhi, India</span>
+											</span>
+										</li>
+
+										<li class="d-flex border-top pt-3 mt-3 flex-wrap">
+											<b class="col_gray fs-2 me-4 pt-3">12/09</b>
+											<span class="me-4">
+												<a href="#"><img src="image/13.jpg" alt="abc"></a>
+											</span>
+											<span class="pt-3">
+												<b class="d-block"><a class="col_gray link1" href="#">Trending
+														Festival</a></b>
+												<span class="col_gray font_13 d-block">New York, USA</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="tab-pane" id="profile2">
+								<div class="profile1_inner">
+									<ul class="mb-0 bg-black p-3">
+										<li class="d-flex flex-wrap">
+											<b class="col_gray fs-2 me-4 pt-3">04/09</b>
+											<span class="me-4">
+												<a href="#"><img src="image/14.jpg" alt="abc"></a>
+											</span>
+											<span class="pt-3">
+												<b class="d-block"><a class="col_gray link1" href="#">SANCTUARY OUTDOOR
+														FESTIVAL</a></b>
+												<span class="col_gray font_13 d-block">London, UK</span>
+											</span>
+										</li>
+										<li class="d-flex border-top pt-3 mt-4 flex-wrap">
+											<b class="col_gray fs-2 me-4 pt-3">06/09</b>
+											<span class="me-4">
+												<a href="#"><img src="image/15.jpg" alt="abc"></a>
+											</span>
+											<span class="pt-3">
+												<b class="d-block"><a class="col_gray link1" href="#">POWER BASS
+														FESTIVAL</a></b>
+												<span class="col_gray font_13 d-block">Sydney, Aus</span>
+											</span>
+										</li>
+
+										<li class="d-flex border-top pt-3 mt-4 flex-wrap">
+											<b class="col_gray fs-2 me-4 pt-3">09/09</b>
+											<span class="me-4">
+												<a href="#"><img src="image/16.jpg" alt="abc"></a>
+											</span>
+											<span class="pt-3">
+												<b class="d-block"><a class="col_gray link1" href="#">Indian
+														Festival</a></b>
+												<span class="col_gray font_13 d-block">Delhi, India</span>
+											</span>
+										</li>
+
+										<li class="d-flex border-top pt-3 mt-4 flex-wrap">
+											<b class="col_gray fs-2 me-4 pt-3">15/09</b>
+											<span class="me-4">
+												<a href="#"><img src="image/17.jpg" alt="abc"></a>
+											</span>
+											<span class="pt-3">
+												<b class="d-block"><a class="col_gray link1" href="#">Trending
+														Festival</a></b>
+												<span class="col_gray font_13 d-block">New York, USA</span>
+											</span>
+										</li>
+									</ul>
+
+								</div>
+							</div>
+
+							<div class="tab-pane" id="profile3">
+								<div class="profile1_inner">
+									<ul class="mb-0 bg-black p-3">
+										<li class="d-flex flex-wrap">
+											<b class="col_gray fs-2 me-4 pt-3">03/09</b>
+											<span class="me-4">
+												<a href="#"><img src="image/10.jpg" alt="abc"></a>
+											</span>
+											<span class="pt-3">
+												<b class="d-block"><a class="col_gray link1" href="#">SANCTUARY OUTDOOR
+														FESTIVAL</a></b>
+												<span class="col_gray font_13 d-block">London, UK</span>
+											</span>
+										</li>
+										<li class="d-flex border-top pt-3 mt-4 flex-wrap">
+											<b class="col_gray fs-2 me-4 pt-3">05/09</b>
+											<span class="me-4">
+												<a href="#"><img src="image/11.jpg" alt="abc"></a>
+											</span>
+											<span class="pt-3">
+												<b class="d-block"><a class="col_gray link1" href="#">POWER BASS
+														FESTIVAL</a></b>
+												<span class="col_gray font_13 d-block">Sydney, Aus</span>
+											</span>
+										</li>
+
+										<li class="d-flex border-top pt-3 mt-4 flex-wrap">
+											<b class="col_gray fs-2 me-4 pt-3">07/09</b>
+											<span class="me-4">
+												<a href="#"><img src="image/12.jpg" alt="abc"></a>
+											</span>
+											<span class="pt-3">
+												<b class="d-block"><a class="col_gray link1" href="#">Indian
+														Festival</a></b>
+												<span class="col_gray font_13 d-block">Delhi, India</span>
+											</span>
+										</li>
+
+										<li class="d-flex border-top pt-3 mt-4 flex-wrap">
+											<b class="col_gray fs-2 me-4 pt-3">12/09</b>
+											<span class="me-4">
+												<a href="#"><img src="image/13.jpg" alt="abc"></a>
+											</span>
+											<span class="pt-3">
+												<b class="d-block"><a class="col_gray link1" href="#">Trending
+														Festival</a></b>
+												<span class="col_gray font_13 d-block">New York, USA</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="tab-pane" id="profile4">
+								<div class="profile1_inner">
+									<ul class="mb-0 bg-black p-3">
+										<li class="d-flex flex-wrap">
+											<b class="col_gray fs-2 me-4 pt-3">04/09</b>
+											<span class="me-4">
+												<a href="#"><img src="image/14.jpg" alt="abc"></a>
+											</span>
+											<span class="pt-3">
+												<b class="d-block"><a class="col_gray link1" href="#">SANCTUARY OUTDOOR
+														FESTIVAL</a></b>
+												<span class="col_gray font_13 d-block">London, UK</span>
+											</span>
+										</li>
+										<li class="d-flex border-top pt-3 mt-4 flex-wrap">
+											<b class="col_gray fs-2 me-4 pt-3">06/09</b>
+											<span class="me-4">
+												<a href="#"><img src="image/15.jpg" alt="abc"></a>
+											</span>
+											<span class="pt-3">
+												<b class="d-block"><a class="col_gray link1" href="#">POWER BASS
+														FESTIVAL</a></b>
+												<span class="col_gray font_13 d-block">Sydney, Aus</span>
+											</span>
+										</li>
+
+										<li class="d-flex border-top pt-3 mt-4 flex-wrap">
+											<b class="col_gray fs-2 me-4 pt-3">09/09</b>
+											<span class="me-4">
+												<a href="#"><img src="image/16.jpg" alt="abc"></a>
+											</span>
+											<span class="pt-3">
+												<b class="d-block"><a class="col_gray link1" href="#">Indian
+														Festival</a></b>
+												<span class="col_gray font_13 d-block">Delhi, India</span>
+											</span>
+										</li>
+
+										<li class="d-flex border-top pt-3 mt-4 flex-wrap">
+											<b class="col_gray fs-2 me-4 pt-3">15/09</b>
+											<span class="me-4">
+												<a href="#"><img src="image/17.jpg" alt="abc"></a>
+											</span>
+											<span class="pt-3">
+												<b class="d-block"><a class="col_gray link1" href="#">Trending
+														Festival</a></b>
+												<span class="col_gray font_13 d-block">New York, USA</span>
+											</span>
+										</li>
+									</ul>
+
+								</div>
+							</div>
+
+
+						</div>
+
+
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+		</div>
+	</section>
+
+	<section id="footer_top" class="pt-2 pb-2 bg_black_light">
+		<div class="container-xl">
+			<div class="top_1 row">
+				<div class="col-md-12">
+					<div class="top_1 text-center">
+
+						<ul class="mb-0 d-flex justify-content-between fs-5">
+							<li><a class="col_gray" href="#"><i class="bi-clock me-1 align-middle col_orange"></i> Sun -
+									Fri (08AM - 10PM)</a></li>
+							<li class="mx-4"><a class="col_gray link1" href="#"><i
+										class="bi-envelope me-1 align-middle col_orange"></i> info@gmail.com</a></li>
+							<li class="col_gray"><a class="col_gray link1" href="#"><i
+										class="bi-telephone me-1 align-middle col_orange"></i> +91 123 654 7898</a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section id="footer" class="pt-5 pb-5 bg_black">
+		<div class="container-xl">
+			<div class="footer_1 row row-cols-1 row-cols-md-4">
+
+				<div class="col">
+					<div class="footer_1_left">
+						<b class="d-block  text-white fs-5">Recent Posts</b>
+						<hr class="line mb-4">
+						<ul class="mb-0 font_13">
+							<li class="d-flex border-bottom pb-3 mb-3">
+								<span><a href="#"><img width="100" alt="abc" src="image/4.jpg"></a></span>
+								<span class="flex-column ms-3">
+									<b class="d-block mb-1 family_2"><a class="col_gray link1" href="#">It is a long
+											established fact that a reader layout</a></b>
+									<span class="font_14 d-block text-muted"><i
+											class="bi-clock me-1 col_orange align-middle"></i> September 24, 2024</span>
+								</span>
+							</li>
+							<li class="d-flex">
+								<span><a href="#"><img width="100" alt="abc" src="image/5.jpg"></a></span>
+								<span class="flex-column ms-3">
+									<b class="d-block mb-1 family_2"><a class="col_gray link1" href="#">Necessity may
+											give us best virtual court</a></b>
+									<span class="font_14 d-block text-muted"><i
+											class="bi-clock me-1 col_orange align-middle"></i> September 26, 2024</span>
+								</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+
+
+				<div class="col">
+					<div class="footer_1_left">
+						<b class="d-block  text-white fs-5">Recent Tags</b>
+						<hr class="line mb-4">
+						<ul class="mb-0 tags font_14 text-capitalize">
+							<li class="d-inline-block"><a href="#">Artists</a></li>
+							<li class="d-inline-block"><a href="#">audio</a></li>
+							<li class="d-inline-block"><a href="#">dubstep</a></li>
+							<li class="d-inline-block"><a href="#">glitchhop</a></li>
+							<li class="d-inline-block"><a href="#">microphone</a></li>
+							<li class="d-inline-block"><a href="#">fx</a></li>
+							<li class="d-inline-block"><a href="#">music</a></li>
+							<li class="d-inline-block"><a href="#">video</a></li>
+							<li class="d-inline-block"><a href="#">trap</a></li>
+							<li class="d-inline-block"><a href="#">soundcloud</a></li>
+							<li class="d-inline-block"><a href="#">studio</a></li>
+							<li class="d-inline-block"><a href="#">Hooks</a></li>
+							<li class="d-inline-block"><a href="#">mixtape</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col">
+					<div class="footer_1_left">
+						<b class="d-block  text-white fs-5">Social</b>
+						<hr class="line mb-4">
+						<div class="row footer_1ism">
+							<ul class="mb-0 fs-2">
+								<li class="d-inline-block"><a class="text-white link" href="#"><i
+											class="bi bi-facebook"></i></a></li>
+								<li class="d-inline-block ms-2"><a class="text-white link" href="#"><i
+											class="bi bi-twitter"></i></a></li>
+								<li class="d-inline-block ms-2"><a class="text-white link" href="#"><i
+											class="bi bi-linkedin"></i></a></li>
+								<li class="d-inline-block ms-2"><a class="text-white link" href="#"><i
+											class="bi  bi-instagram"></i></a></li>
+								<li class="d-inline-block ms-2"><a class="text-white link" href="#"><i
+											class="bi  bi-pinterest"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="footer_1_left">
+						<b class="d-block  text-white fs-5">Categories</b>
+						<hr class="line mb-4">
+						<div class="row footer_1ism">
+							<span class="col-md-12 col-6  d-inline-block"><i
+									class="bi-chevron-right font_13 align-middle col_orange me-1"></i> <a
+									class="col_gray link" href="#"> Features</a></span>
+							<span class="mt-3 col-md-12 col-6  d-inline-block"><i
+									class="bi-chevron-right font_13 align-middle col_orange me-1"></i> <a
+									class="col_gray link" href="#"> Interviews</a></span>
+							<span class="mt-3 col-md-12 col-6  d-inline-block"><i
+									class="bi-chevron-right font_13 align-middle col_orange me-1"></i> <a
+									class="col_gray link" href="#"> Listen</a></span>
+							<span class="mt-3 col-md-12 col-6  d-inline-block"><i
+									class="bi-chevron-right font_13 align-middle col_orange me-1"></i> <a
+									class="col_gray link" href="#"> News</a></span>
+							<span class="mt-3 col-md-12 col-6  d-inline-block"><i
+									class="bi-chevron-right font_13 align-middle col_orange me-1"></i> <a
+									class="col_gray link" href="#"> Reviews</a></span>
+							<span class="mt-3 col-md-12 col-6  d-inline-block"><i
+									class="bi-chevron-right font_13 align-middle col_orange me-1"></i> <a
+									class="col_gray link" href="#"> Listen</a></span>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section id="footer_bottom" class="pt-3 pb-3 bg_black_light border-top">
+		<div class="container-xl">
+			<div class="row  footer_2">
+
+				<div class="col-md-12">
+					<div class="footer_bottom1_left text-center">
+						<p class="mb-0">© 2023 Your Website Name. All Rights Reserved | Design by <a
+								class="col_orange fw-bold" href="http://www.templateonweb.com">TemplateOnWeb</a></p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<script src="src/js/bootstrap.bundle.min.js"></script>
+	<script src="src/js/theme.min.js"></script>
+
+	<script type="text/javascript" src="js/jplayer/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jplayer/jquery.jplayer.min.js"></script>
+	<script src="./js/jplayerInit.js"></script>
+	<script type="module" src="src/js/pages/index.js"></script>
+
+</body>
+
+</html>

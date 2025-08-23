@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Music</title>
+	<link href="src/css/bootstrap.min.css" rel="stylesheet">
+	<link href="src/css/global.css" rel="stylesheet">
+	<link href="src/css/artist.css" rel="stylesheet">
+	<link href="src/css/player-skin.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<section id="header">
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container-xl p-sm-2 p-lg-0">
+				<a class="d-flex logo  space_2" href="index.html">
+					<b class="fs-2 family_1 text-white"><i class="bi-file-music me-1 col_orange align-middle"></i>
+						Ogoni<span class="col_orange">Beats</span> </b>
+				</a>
+				<button class="navbar-toggler offcanvas-nav-btn  ms-auto me-3" type="button">
+					<img src="src/image/icons-svg/list.svg" width="40" height="40"
+						alt="Open TemplateOnweb website menu" />
+				</button>
+				<div class="offcanvas offcanvas-start offcanvas-nav" style="width: 25rem">
+					<div class="offcanvas-header shadow  p-sm-2 p-lg-0">
+						<a class="d-flex logo  space_2" href="index.html">
+							<b class="fs-2 family_1 text-white"><i
+									class="bi-file-music me-1 col_orange align-middle"></i> Mu<span
+									class="col_orange">sic</span> </b>
+						</a>
+						<img src="src/image/icons-svg/x.svg" width="40" height="40" class="ms-auto"
+							data-bs-dismiss="offcanvas" aria-label="Close" alt="Close TemplateOnweb website menu" />
+
+					</div>
+					<div class="offcanvas-body p-sm-4 p-lg-0 align-items-center">
+						<ul class="navbar-nav align-items-lg-center ms-auto">
+							<li class="nav-item">
+								<a class="nav-link dropdown-toggle" href="index.html" title="Visit home page">
+									Home
+								</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link dropdown-toggle" href="about.html" title="Visit home page">
+									About Us
+								</a>
+							</li>
+							<li class="nav-item dropdown dropdown-fullwidth">
+								<a class="nav-link dropdown-toggle active" href="#" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false"
+									title="Click to see Wordpress website templates">
+									Releases<img src="src/image/icons-svg/chevron-down.svg" width="15" height="15"
+										alt="Submenu open/close icon"> </a>
+								<div class="dropdown-menu p-4 shadow">
+									<div class="row row-cols-xl-5 row-cols-lg-5 row-cols-1 gx-lg-4">
+
+										<div class="col">
+											<a class="dropdown-item d-block px-0 pt-0" href="release.html">
+												<div class="rounded d-none d-lg-block">
+													<img src="src/image/25.jpg" class="img-fluid" alt="abs">
+													<h5 class="font_14"><a href="release.html">Sustainable Fashion
+															Revolution: The Impact of Gen AI</a></h5>
+													<span class="d-block font_12 text-muted">JAN 6, 2020</span>
+												</div>
+											</a>
+										</div>
+										<div class="col">
+											<a class="dropdown-item d-block px-0 pt-0" href="release.html">
+												<div class="rounded d-none d-lg-block">
+													<img src="src/image/26.jpg" class="img-fluid" alt="abs">
+													<h5 class="font_14"><a href="release.html">14 Best Travel Size
+															Perfumes to Ensure You Smell Heavenly on the Go</a></h5>
+													<span class="d-block font_12 text-muted">JAN 6, 2020</span>
+												</div>
+											</a>
+										</div>
+										<div class="col">
+											<a class="dropdown-item d-block px-0 pt-0" href="release.html">
+												<div class="rounded d-none d-lg-block">
+													<img src="src/image/27.jpg" class="img-fluid" alt="abs">
+													<h5 class="font_14"><a href="release.html">How To Start A Clothing
+															Business: Everything You Need To Know</a></h5>
+													<span class="d-block font_12 text-muted">JAN 6, 2020</span>
+												</div>
+											</a>
+										</div>
+										<div class="col">
+											<a class="dropdown-item d-block px-0 pt-0" href="release.html">
+												<div class="rounded d-none d-lg-block">
+													<img src="src/image/28.jpg" class="img-fluid" alt="abs">
+													<h5 class="font_14"><a href="release.html">7 New York Fashion Week
+															Top Makeup Trends We Spotted</a></h5>
+													<span class="d-block font_12 text-muted">JAN 6, 2020</span>
+												</div>
+											</a>
+										</div>
+										<div class="col">
+											<a class="dropdown-item d-block px-0 pt-0" href="release.html">
+												<div class="rounded d-none d-lg-block">
+													<img src="src/image/29.jpg" class="img-fluid" alt="abs">
+													<h5 class="font_14"><a href="release.html">The Curly Bob Is the
+															Coolest Haircut for Seamless Volume and Bouncy Texture</a>
+													</h5>
+													<span class="d-block font_12 text-muted">JAN 6, 2020</span>
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>
+							</li>
+
+							<li class="nav-item dropdown drop_border">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Artists<img src="src/image/icons-svg/chevron-down.svg" width="15" height="15"
+										alt="Submenu open/close icon">
+								</a>
+								<ul class="dropdown-menu drop_1 shadow" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="team.html"> Artists</a></li>
+									<li><a class="dropdown-item border-0" href="team_detail.html"> Artist Details</a>
+									</li>
+								</ul>
+							</li>
+
+							<li class="nav-item dropdown drop_border">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Events <img src="src/image/icons-svg/chevron-down.svg" width="15" height="15"
+										alt="Submenu open/close icon">
+								</a>
+								<ul class="dropdown-menu drop_1 shadow" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="event.html"> Events</a></li>
+									<li><a class="dropdown-item border-0" href="event_detail.html"> Event Details</a>
+									</li>
+								</ul>
+							</li>
+
+							<li class="nav-item dropdown drop_border">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Blogs <img src="src/image/icons-svg/chevron-down.svg" width="15" height="15"
+										alt="Submenu open/close icon">
+								</a>
+								<ul class="dropdown-menu drop_1 shadow" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="blog.html"> Blogs</a></li>
+									<li><a class="dropdown-item border-0" href="blog_detail.html"> Blog Details</a></li>
+								</ul>
+							</li>
+
+
+							<li class="nav-item dropdown drop_border">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Pages <img src="src/image/icons-svg/chevron-down.svg" width="15" height="15"
+										alt="Submenu open/close icon">
+								</a>
+								<ul class="dropdown-menu drop_1 shadow" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="gallery.html"> Gallery</a></li>
+									<li><a class="dropdown-item border-0" href="contact.html"> Contact Us</a></li>
+								</ul>
+							</li>
+
+						</ul>
+
+					</div>
+				</div>
+			</div>
+			</div>
+		</nav>
+	</section>
+
+	<section id="center" class="center_release_dt">
+		<div class="center_om bg_back1 py-5">
+			<div class="container-xl my-5">
+				<div class="center_o1 row">
+					<div class="col-md-12">
+						<h1 class="fs-1 col_orange">Release Details</h1>
+						<h3 class="text-white">New awesome album.</h3>
+						<hr class="bg_black_light">
+						<ul class="mb-0 font_14">
+							<li class="col_gray">
+								SHARE -
+								<span class="ms-3"><a class="col_gray link" href="#"><i
+											class="bi-facebook"></i></a></span>
+								<span class="ms-3"><a class="col_gray link" href="#"><i
+											class="bi-instagram"></i></a></span>
+								<span class="ms-3"><a class="col_gray link" href="#"><i
+											class="bi-linkedin"></i></a></span>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<section id="artist_dt" class="py-5 bg-black border-top">
+		<div class="container-xl my-5">
+			<div class="row artist_dt1">
+				<div class="col-md-4">
+					<div class="artist_dt1_left">
+						<div class="artist_dt1_left1">
+							<span><i class="bi-mic me-1 col_gray font_60 align-middle"></i></span>
+							<h3 class="text-white mt-3">Release. <span class="col_orange">Final Frontier</span></h3>
+							<hr class="w-25 bg-dark my-4">
+							<ul class="font_14">
+								<li class="col_gray">Date&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: <span
+										class="text-white ms-3">09/03/2019</span></li>
+								<li class="col_gray mt-2">Catalog : <span class="text-white ms-3">FQRN01 </span></li>
+
+								<li class="col_gray mt-2">Genres&nbsp&nbsp&nbsp: <span class="text-white ms-3"><a
+											class="col_orange" href="#">Breakbeat · UK Funky</a> </span></li>
+								<li class="col_gray mt-2">Artists&nbsp&nbsp&nbsp&nbsp&nbsp: <span
+										class="text-white ms-3"><a class="col_orange" href="#">Semper</a> </span></li>
+							</ul>
+							<img src="image/40.jpg" alt="abc" class="img-fluid mt-4">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="artist_dt1_right">
+						<h4 class="mb-4 text-white">Tracklist.</h4>
+						<ul class="mb-0 bg_black p-3">
+							<li class="d-flex align-items-center">
+								<b class="col_gray fs-5 me-4">01</b>
+								<span class="me-2 flex-grow-1">
+									<b class="d-block"><a class="col_gray link1" href="#">Fruchtchen</a></b>
+									<span class="col_gray font_13 d-block">MaddBASS</span>
+								</span>
+
+								<div class="player_container flex-grow-1">
+									<div class="jp-jplayer jplayer" data-ancestor=".jp_container_1"
+										data-url="https://jplayer.org/audio/m4a/Miaow-07-Bubble.m4a"></div>
+									<div class="jp-audio jp_container_1" role="application" aria-label="media player">
+										<div class="jp-gui jp-interface">
+											<!-- Player Controls -->
+											<div class="player_controls_box">
+												<button class="jp-play player_button" tabindex="0"></button>
+											</div>
+											<!-- Progress Bar -->
+											<div class="player_bars">
+												<div class="jp-progress">
+													<div class="jp-seek-bar">
+														<div>
+															<div class="jp-play-bar">
+																<div class="jp-current-time" role="timer"
+																	aria-label="time">0:00
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="jp-duration ml-auto" role="timer" aria-label="duration">
+													00:00</div>
+											</div>
+											<!-- Volume Controls -->
+											<div class="jp-volume-controls">
+												<button class="jp-mute" tabindex="0"><i
+														class="bi bi-volume-down-fill"></i></button>
+												<div class="jp-volume-bar">
+													<div class="jp-volume-bar-value" style="width: 0%;"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<span class="mt-2">
+									<a class="tags1 m-3" href="#">Download</a>
+								</span>
+							</li>
+							<li class="d-flex  align-items-center border-top mt-3 pt-3 flex-wrap">
+								<b class="col_gray fs-5 me-4">02</b>
+								<span class="me-2 flex-grow-1">
+									<b class="d-block"><a class="col_gray link1" href="#">Fruchtchen</a></b>
+									<span class="col_gray font_13 d-block">Madoff Intro</span>
+								</span>
+								<div class="player_container flex-grow-1">
+									<div class="jp-jplayer jplayer" data-ancestor=".jp_container_2"
+										data-url="https://jplayer.org/audio/m4a/Miaow-07-Bubble.m4a"></div>
+									<div class="jp-audio jp_container_2" role="application" aria-label="media player">
+										<div class="jp-gui jp-interface">
+											<!-- Player Controls -->
+											<div class="player_controls_box">
+												<button class="jp-play player_button" tabindex="0"></button>
+											</div>
+											<!-- Progress Bar -->
+											<div class="player_bars">
+												<div class="jp-progress">
+													<div class="jp-seek-bar">
+														<div>
+															<div class="jp-play-bar">
+																<div class="jp-current-time" role="timer"
+																	aria-label="time">0:00
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="jp-duration ml-auto" role="timer" aria-label="duration">
+													00:00</div>
+											</div>
+											<!-- Volume Controls -->
+											<div class="jp-volume-controls">
+												<button class="jp-mute" tabindex="0"><i
+														class="bi bi-volume-down-fill"></i></button>
+												<div class="jp-volume-bar">
+													<div class="jp-volume-bar-value" style="width: 0%;"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<span class="mt-2">
+									<a class="tags1 m-3" href="#">Download</a>
+								</span>
+							</li>
+							<li class="d-flex  align-items-center border-top mt-3 pt-3 flex-wrap">
+								<b class="col_gray fs-5 me-4">03</b>
+								<span class="me-2 flex-grow-1">
+									<b class="d-block"><a class="col_gray link1" href="#">Fruchtchen</a></b>
+									<span class="col_gray font_13 d-block">Madoff Intro</span>
+								</span>
+								<div class="player_container flex-grow-1">
+									<div class="jp-jplayer jplayer" data-ancestor=".jp_container_3"
+										data-url="https://jplayer.org/audio/m4a/Miaow-07-Bubble.m4a"></div>
+									<div class="jp-audio jp_container_3" role="application" aria-label="media player">
+										<div class="jp-gui jp-interface">
+											<!-- Player Controls -->
+											<div class="player_controls_box">
+												<button class="jp-play player_button" tabindex="0"></button>
+											</div>
+											<!-- Progress Bar -->
+											<div class="player_bars">
+												<div class="jp-progress">
+													<div class="jp-seek-bar">
+														<div>
+															<div class="jp-play-bar">
+																<div class="jp-current-time" role="timer"
+																	aria-label="time">0:00
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="jp-duration ml-auto" role="timer" aria-label="duration">
+													00:00</div>
+											</div>
+											<!-- Volume Controls -->
+											<div class="jp-volume-controls">
+												<button class="jp-mute" tabindex="0"><i
+														class="bi bi-volume-down-fill"></i></button>
+												<div class="jp-volume-bar">
+													<div class="jp-volume-bar-value" style="width: 0%;"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<span class="mt-2">
+									<a class="tags1 m-3" href="#">Download</a>
+								</span>
+							</li>
+
+							<li class="d-flex  align-items-center border-top mt-3 pt-3 flex-wrap">
+								<b class="col_gray fs-5 me-4">04</b>
+								<span class="me-2 flex-grow-1">
+									<b class="d-block"><a class="col_gray link1" href="#">Fruchtchen</a></b>
+									<span class="col_gray font_13 d-block">Madoff Intro</span>
+								</span>
+								<div class="player_container flex-grow-1">
+									<div class="jp-jplayer jplayer" data-ancestor=".jp_container_4"
+										data-url="https://jplayer.org/audio/m4a/Miaow-07-Bubble.m4a"></div>
+									<div class="jp-audio jp_container_4" role="application" aria-label="media player">
+										<div class="jp-gui jp-interface">
+											<!-- Player Controls -->
+											<div class="player_controls_box">
+												<button class="jp-play player_button" tabindex="0"></button>
+											</div>
+											<!-- Progress Bar -->
+											<div class="player_bars">
+												<div class="jp-progress">
+													<div class="jp-seek-bar">
+														<div>
+															<div class="jp-play-bar">
+																<div class="jp-current-time" role="timer"
+																	aria-label="time">0:00
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="jp-duration ml-auto" role="timer" aria-label="duration">
+													00:00</div>
+											</div>
+											<!-- Volume Controls -->
+											<div class="jp-volume-controls">
+												<button class="jp-mute" tabindex="0"><i
+														class="bi bi-volume-down-fill"></i></button>
+												<div class="jp-volume-bar">
+													<div class="jp-volume-bar-value" style="width: 0%;"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<span class="mt-2">
+									<a class="tags1 m-3" href="#">Download</a>
+								</span>
+							</li>
+
+							<li class="d-flex  align-items-center border-top mt-3 pt-3 flex-wrap">
+								<b class="col_gray fs-5 me-4">05</b>
+								<span class="me-2 flex-grow-1">
+									<b class="d-block"><a class="col_gray link1" href="#">Fruchtchen</a></b>
+									<span class="col_gray font_13 d-block">Madoff Intro</span>
+								</span>
+								<div class="player_container flex-grow-1">
+									<div class="jp-jplayer jplayer" data-ancestor=".jp_container_5"
+										data-url="https://jplayer.org/audio/m4a/Miaow-07-Bubble.m4a"></div>
+									<div class="jp-audio jp_container_5" role="application" aria-label="media player">
+										<div class="jp-gui jp-interface">
+											<!-- Player Controls -->
+											<div class="player_controls_box">
+												<button class="jp-play player_button" tabindex="0"></button>
+											</div>
+											<!-- Progress Bar -->
+											<div class="player_bars">
+												<div class="jp-progress">
+													<div class="jp-seek-bar">
+														<div>
+															<div class="jp-play-bar">
+																<div class="jp-current-time" role="timer"
+																	aria-label="time">0:00
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="jp-duration ml-auto" role="timer" aria-label="duration">
+													00:00</div>
+											</div>
+											<!-- Volume Controls -->
+											<div class="jp-volume-controls">
+												<button class="jp-mute" tabindex="0"><i
+														class="bi bi-volume-down-fill"></i></button>
+												<div class="jp-volume-bar">
+													<div class="jp-volume-bar-value" style="width: 0%;"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<span class="mt-2">
+									<a class="tags1 m-3" href="#">Download</a>
+								</span>
+							</li>
+
+						</ul>
+
+						<div class="text-end">
+							<h6 class="mt-4"><a class="button" href="#">View More Tracks.</a></h6>
+						</div>
+						<h4 class="text-white mt-5">Promo Video.</h4>
+						<h4 class="text-white mt-4">Details.</h4>
+						<p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porttitor
+							fermentum ullamcorper. Aliquam erat volutpat. Nullam purus metus, interdum ac lacinia non,
+							sodales non arcu. In eleifend vestibulum eleifend. Maecenas ut felis mi, vitae pharetra
+							justo. Ut lacus lacus, fermentum sed tincidunt eget, suscipit nec orci. Sed pellentesque
+							dapibus tellus in semper. Aenean faucibus aliquet turpis, id fermentum sem consectetur id.
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,
+							consectetur adipiscing elit. Duis faucibus euismod nunc scelerisque tincidunt.</p>
+						<h4 class="text-white mt-4 mb-4">The Press Wrote.</h4>
+						<p class="fst-italic ms-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+							eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						<div class="text-end mb-4 mt-4">
+							<h5 class="col_orange">UK SEMP MAGAZINE</h5>
+							<div>
+								<p class="mb-0 fst-italic ms-3 mt-4">Pellentesque porttitor fermentum ullamcorper.
+									Aliquam erat volutpat. Nullam purus metus, interdum ac lacinia non, sodales non
+									arcu. In eleifend vestibulum eleifend. Maecenas ut felis mi, vitae pharetra justo.
+								</p>
+								<div class="text-end mt-4">
+									<h5 class="col_orange mb-0">MIX PORTA</h5>
+									<div>
+									</div>
+								</div>
+							</div>
+						</div>
+	</section>
+
+
+	<section id="footer_top" class="pt-2 pb-2 bg_black_light">
+		<div class="container-xl">
+			<div class="top_1 row">
+				<div class="col-md-12">
+					<div class="top_1 text-center">
+
+						<ul class="mb-0 d-flex justify-content-between fs-5">
+							<li><a class="col_gray" href="#"><i class="bi-clock me-1 align-middle col_orange"></i> Sun -
+									Fri (08AM - 10PM)</a></li>
+							<li class="mx-4"><a class="col_gray link1" href="#"><i
+										class="bi-envelope me-1 align-middle col_orange"></i> info@gmail.com</a></li>
+							<li class="col_gray"><a class="col_gray link1" href="#"><i
+										class="bi-telephone me-1 align-middle col_orange"></i> +91 123 654 7898</a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section id="footer" class="pt-5 pb-5 bg_black">
+		<div class="container-xl">
+			<div class="footer_1 row row-cols-1 row-cols-md-4">
+
+				<div class="col">
+					<div class="footer_1_left">
+						<b class="d-block  text-white fs-5">Recent Posts</b>
+						<hr class="line mb-4">
+						<ul class="mb-0 font_13">
+							<li class="d-flex border-bottom pb-3 mb-3">
+								<span><a href="#"><img width="100" alt="abc" src="image/4.jpg"></a></span>
+								<span class="flex-column ms-3">
+									<b class="d-block mb-1 family_2"><a class="col_gray link1" href="#">It is a long
+											established fact that a reader layout</a></b>
+									<span class="font_14 d-block text-muted"><i
+											class="bi-clock me-1 col_orange align-middle"></i> September 24, 2024</span>
+								</span>
+							</li>
+							<li class="d-flex">
+								<span><a href="#"><img width="100" alt="abc" src="image/5.jpg"></a></span>
+								<span class="flex-column ms-3">
+									<b class="d-block mb-1 family_2"><a class="col_gray link1" href="#">Necessity may
+											give us best virtual court</a></b>
+									<span class="font_14 d-block text-muted"><i
+											class="bi-clock me-1 col_orange align-middle"></i> September 26, 2024</span>
+								</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+
+
+				<div class="col">
+					<div class="footer_1_left">
+						<b class="d-block  text-white fs-5">Recent Tags</b>
+						<hr class="line mb-4">
+						<ul class="mb-0 tags font_14 text-capitalize">
+							<li class="d-inline-block"><a href="#">Artists</a></li>
+							<li class="d-inline-block"><a href="#">audio</a></li>
+							<li class="d-inline-block"><a href="#">dubstep</a></li>
+							<li class="d-inline-block"><a href="#">glitchhop</a></li>
+							<li class="d-inline-block"><a href="#">microphone</a></li>
+							<li class="d-inline-block"><a href="#">fx</a></li>
+							<li class="d-inline-block"><a href="#">music</a></li>
+							<li class="d-inline-block"><a href="#">video</a></li>
+							<li class="d-inline-block"><a href="#">trap</a></li>
+							<li class="d-inline-block"><a href="#">soundcloud</a></li>
+							<li class="d-inline-block"><a href="#">studio</a></li>
+							<li class="d-inline-block"><a href="#">Hooks</a></li>
+							<li class="d-inline-block"><a href="#">mixtape</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col">
+					<div class="footer_1_left">
+						<b class="d-block  text-white fs-5">Social</b>
+						<hr class="line mb-4">
+						<div class="row footer_1ism">
+							<ul class="mb-0 fs-2">
+								<li class="d-inline-block"><a class="text-white link" href="#"><i
+											class="bi bi-facebook"></i></a></li>
+								<li class="d-inline-block ms-2"><a class="text-white link" href="#"><i
+											class="bi bi-twitter"></i></a></li>
+								<li class="d-inline-block ms-2"><a class="text-white link" href="#"><i
+											class="bi bi-linkedin"></i></a></li>
+								<li class="d-inline-block ms-2"><a class="text-white link" href="#"><i
+											class="bi  bi-instagram"></i></a></li>
+								<li class="d-inline-block ms-2"><a class="text-white link" href="#"><i
+											class="bi  bi-pinterest"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="footer_1_left">
+						<b class="d-block  text-white fs-5">Categories</b>
+						<hr class="line mb-4">
+						<div class="row footer_1ism">
+							<span class="col-md-12 col-6  d-inline-block"><i
+									class="bi-chevron-right font_13 align-middle col_orange me-1"></i> <a
+									class="col_gray link" href="#"> Features</a></span>
+							<span class="mt-3 col-md-12 col-6  d-inline-block"><i
+									class="bi-chevron-right font_13 align-middle col_orange me-1"></i> <a
+									class="col_gray link" href="#"> Interviews</a></span>
+							<span class="mt-3 col-md-12 col-6  d-inline-block"><i
+									class="bi-chevron-right font_13 align-middle col_orange me-1"></i> <a
+									class="col_gray link" href="#"> Listen</a></span>
+							<span class="mt-3 col-md-12 col-6  d-inline-block"><i
+									class="bi-chevron-right font_13 align-middle col_orange me-1"></i> <a
+									class="col_gray link" href="#"> News</a></span>
+							<span class="mt-3 col-md-12 col-6  d-inline-block"><i
+									class="bi-chevron-right font_13 align-middle col_orange me-1"></i> <a
+									class="col_gray link" href="#"> Reviews</a></span>
+							<span class="mt-3 col-md-12 col-6  d-inline-block"><i
+									class="bi-chevron-right font_13 align-middle col_orange me-1"></i> <a
+									class="col_gray link" href="#"> Listen</a></span>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section id="footer_bottom" class="pt-3 pb-3 bg_black_light border-top">
+		<div class="container-xl">
+			<div class="row  footer_2">
+
+				<div class="col-md-12">
+					<div class="footer_bottom1_left text-center">
+						<p class="mb-0">© 2023 Your Website Name. All Rights Reserved | Design by <a
+								class="col_orange fw-bold" href="http://www.templateonweb.com">TemplateOnWeb</a></p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<script src="src/js/bootstrap.bundle.min.js"></script>
+	<script src="src/js/theme.min.js"></script>
+
+	<script type="text/javascript" src="src/js/jplayer/jquery.min.js"></script>
+	<script type="text/javascript" src="src/js/jplayer/jquery.jplayer.min.js"></script>
+	<script src="./js/jplayerInit.js"></script>
+	<script type="module" src="src/js/pages/detail.js"></script>
+
+</body>
+
+</html>

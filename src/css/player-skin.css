@@ -1,0 +1,210 @@
+/*
+Template Name: Music
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+
+/*********************track****************/
+
+.track {
+	padding-top: 120px;
+	padding-bottom: 40px;
+	overflow: hidden;
+	
+}
+
+.track .section-title {
+	margin-bottom: 105px;
+}
+
+.track__content {
+	height: 502px;
+	overflow-y: auto;
+}
+
+.track__all {
+	text-align: right;
+	margin-bottom: 100px;
+}
+
+.jp-play {
+	position: relative;
+	height: 50px;
+	width: 50px;
+	background: transparent;
+	border: 2px solid #e1e1e1;
+	border-radius: 50%;
+	font-family:'Bootstrap-icons';
+}
+
+.jp-play:after {
+	    position: absolute;
+    display: block;
+    left: 11px;
+    top: 4px;
+    width: 25px;
+    height: 25px;
+    content: "\F234";
+    font-size: 27px;
+    color: #a9a6a6;
+}
+
+.jp-state-playing .jp-play {
+	background: var(--orange) !important;
+	border-color: #ffffff !important;
+}
+
+.jp-state-playing .jp-play:after {
+	content: "\F4C4";
+	border-color: #ffffff !important;
+	color: #ffffff;
+}
+
+.jp-audio .jp-play:focus {
+	background: var(--orange) !important;
+	border-color:var(--orange) !important;
+	color: var(--orange);
+}
+
+.jp-audio .jp-play:focus:after {
+	border-color: #ffffff !important;
+	color: #ffffff;
+}
+
+.jp-seek-bar>div {
+	height: 5px;
+	background: #e1e1e1;
+	cursor: pointer;
+	width: 100px;
+}
+
+.player_bars {
+	width: 200px;
+	display: table;
+	padding-left: 50px;
+	position: relative;
+	padding-top: 25px;
+	float: left;
+	margin-right: 15px;
+}
+
+.jp-play-bar {
+	position: relative;
+	height: 100%;
+	background: var(--orange);
+	overflow: visible !important;
+}
+
+.jp-current-time {
+	font-size: 15px;
+	color: #ddd5d5;
+	position: absolute;
+	left: -50px;
+	top: -9px;
+}
+
+.jp-duration {
+	font-size: 15px;
+	color: #ddd5d5;
+	position: absolute;
+	right: 0;
+	top: 16px;
+}
+
+.player_controls_box {
+	width: 50px;
+	float: left;
+	margin-right: 20px;
+}
+
+.jp-mute {
+	font-size: 25px;
+	border: none;
+	background: none;
+	color: #ddd5d5;
+	position: absolute;
+	left: 0;
+	top: 5px;
+	padding:2px
+}
+
+.jp-volume-bar {
+	height: 5px;
+	width: 50px;
+	background: #e1e1e1;
+	cursor: pointer;
+}
+
+.jp-volume-bar-value {
+	background: var(--orange);
+	height: 100%;
+}
+
+.jp-volume-controls {
+	position: relative;
+	width: 95px;
+	float: left;
+	padding-left: 30px;
+	padding-top: 25px;
+}
+
+.player_container {
+	overflow: hidden;
+    background-color: #333333;
+    padding: 10px;
+}
+
+.player_container:last-child {
+	margin-bottom: 0;
+}
+
+/*********************track_end****************/
+
+
+
+
+@media screen and (max-width : 767px){
+
+.artist_dt1_right ul li{
+	flex-wrap:wrap!important;
+}
+.artist_dt1_right .player_container{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+ }
+
+
+@media (min-width:576px) and (max-width:767px) {
+
+ }
+ 
+@media (min-width:768px) and (max-width:991px) {
+.artist_dt1_right .player_bars{
+	display:none!important;
+}
+.artist_dt1_right .player_controls_box {
+    width: 30px;
+}
+ }
+
+@media (min-width:992px) and (max-width:1200px) {
+.artist_dt1_right .player_bars{
+	display:none!important;
+}
+
+ }
+
+@media (min-width:1201px) and (max-width:1300px) {
+
+
+ }
+@media screen and (min-width : 1400px){
+
+
+ }
+
+
